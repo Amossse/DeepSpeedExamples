@@ -107,14 +107,14 @@ def parse_args():
     parser.add_argument(
         "--per_device_train_batch_size",
         type=int,
-        default=16,
+        default=1,
         help=
         "Batch size (per device) for the training dataloader and generation purpose."
     )
     parser.add_argument(
         "--per_device_mini_train_batch_size",
         type=int,
-        default=16,
+        default=1,
         help=
         "Mini Batch size (per device) for the training dataloader and training purpose."
     )
